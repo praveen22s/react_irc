@@ -1,0 +1,32 @@
+Git comands:
+
+git init: Initialize a new Git repository.
+git clone [repository_url]: Clone a repository into a new directory.
+git add [file]: Add changes in the working directory to the staging area.
+git add .: Add all changes in the working directory to the staging area.
+git commit -m "[commit_message]": Commit changes in the staging area with a message.
+git status: Show the status of changes as untracked, modified, or staged.
+git log: Display the commit history.
+git branch: List all local branches.
+git branch [branch_name]: Create a new branch.
+git checkout [branch_name]: Switch to a different branch.
+git merge [branch_name]: Merge changes from another branch into the current branch.
+git pull [remote] [branch]: Fetch changes from a remote repository and merge them into the current branch.
+git push [remote] [branch]: Push local changes to a remote repository.
+git remote -v: List all remote repositories.
+git fetch [remote]: Fetch changes from a remote repository without merging.
+git diff: Show the differences between the working directory and the last commit.
+git diff --staged: Show the differences between the staging area and the last commit.
+git reset [file]: Unstage a file, but keep the changes.
+git reset --hard HEAD: Discard all changes in the working directory.
+git rm [file]: Remove a file from the working directory and staging area.
+git mv [old_path] [new_path]: Move or rename a file.
+git tag [tag_name]: Create a lightweight tag for the current commit.
+git fetch --tags: Fetch all tags from a remote repository.
+git show [commit_sha]: Show the details of a specific commit.
+git remote add [remote_name] [remote_url]: Add a new remote repository.
+git remote remove [remote_name]: Remove a remote repository.
+git config --global user.name "[your_name]": Set your global username.
+git config --global user.email "[your_email]": Set your global email address.
+git stash: Temporarily save changes that are not ready to be committed.
+git cherry-pick [commit_sha]: Apply the changes introduced by a specific commit.
