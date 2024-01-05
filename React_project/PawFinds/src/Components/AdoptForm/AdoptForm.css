@@ -1,0 +1,136 @@
+:root {
+  --darkGrey: #1f2130;
+  --purple: #9d60f2;
+  --hoverPurple: #7d3dd7;
+  --white: white;
+  --black: black;
+  --textGrey: rgb(243, 237, 237);
+  --yellow: #fbc256;
+  --darkYellow: #f7b842;
+  --darkGreen: #4f9623; 
+}
+
+.form-pet-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-details {  
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 310px;
+  height: 120px;
+  margin-bottom: 17px;
+}
+
+.pet-pic img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.pet-info h2 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--darkGreen); 
+  text-align: center;
+  margin: 5px 0;
+}
+
+.pet-info p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--darkGreen); 
+}
+
+.custom-adopt-form-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.custom-form-heading {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  color: var(--darkGreen);
+  border-bottom: 2px solid var(--darkGreen); 
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.custom-form img {
+  max-width: 60%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.custom-form p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--darkGrey);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.custom-form h3 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--darkGreen); 
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.custom-label {
+  font-family: "Montserrat", sans-serif;
+  color: var(--darkGreen); 
+  font-weight: bold;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.custom-input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.custom-cta-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: var(--darkGreen);
+  color: var(--lightGrey); 
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.custom-cta-button:hover {
+  background-color: var(--hoverTeal); 
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.custom-m-b {
+  margin-bottom: 20px;
+}
+
+.email-not-valid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.email-not-valid p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--redBtn);
+  font-size: 14px;
+  margin-bottom: 5px;
+}

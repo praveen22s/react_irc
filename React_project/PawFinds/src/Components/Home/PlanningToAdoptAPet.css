@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --darkBlue: #1a1f2b;
+    --teal: #3ac1a7;
+    --hoverTeal: #2a907f;
+    --lightGrey: #f5f5f5;
+    --charcoal: #333;
+    --textLightGrey: #a8a8a8;
+    --green: #6dbb3a;
+    --darkGreen: #4f9623;
+    --redBtn: #e74c3c;
+    --redBtnHover: #c0392b;
+}
+
+.planning-container {
+    margin: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planning-container h1 {
+    margin-top: 15px;
+    color: var(--darkGreen); /* Adjusted color */
+    border-bottom: 3px solid var(--darkGreen); /* Adjusted color */
+    padding-bottom: 8px;
+}
+
+.boxes-container {
+    padding: 0px 80px 0px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}

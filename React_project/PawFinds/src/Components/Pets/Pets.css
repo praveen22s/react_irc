@@ -1,0 +1,46 @@
+:root {
+    --darkBlue: #1a1f2b;
+    --teal: #3ac1a7;
+    --hoverTeal: #2a907f;
+    --lightGrey: #f5f5f5;
+    --charcoal: #333;
+    --textLightGrey: #a8a8a8;
+    --green: #6dbb3a;
+    --darkGreen: #4f9623;
+    --redBtn: #e74c3c;
+    --redBtnHover: #c0392b;
+    --yellow: #fbc256;
+    --darkYellow: #f7b842;
+  }
+  
+  .filter-selection {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px 25px;
+  }
+  
+  .filter-selection select {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+    border-radius: 100px;
+    border: none;
+    padding: 8px 8px;
+    color: var(--white);
+    background-color: var(--darkGreen);
+  }
+  
+  .filter-selection select:active {
+    border: none;
+  }
+  
+  .filter-selection select:after {
+    border: none;
+  }
+  
+  .pet-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,59 @@
+:root {
+  --darkBlue: #1a1f2b;
+  --teal: #3ac1a7;
+  --hoverTeal: #2a907f;
+  --lightGrey: #f5f5f5;
+  --charcoal: #333;
+  --textLightGrey: #a8a8a8;
+  --green: #6dbb3a;
+  --darkGreen: #4f9623;
+  --redBtn: #e74c3c;
+  --redBtnHover: #c0392b;
+}
+
+.main-container {
+  padding: 50px 0;
+}
+
+.titles-container {
+  max-width: 20vw;
+  min-width: 20vw;
+  padding: 25px;
+}
+
+.titles-container > * {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--darkGreen);
+}
+
+.titles-container > *:hover {
+  padding-left: 10px;
+  transition: padding-left 0.4s;
+}
+
+.blog-container {
+  border-left: 3px solid var(--darkGreen);
+  padding: 0 4vw;
+  max-width: 80vw;
+  min-width: 80vw;
+}
+
+/* Additional styles if needed for the blog content */
+.blog-container h2 {
+  color: var(--darkGreen);
+}
+
+.blog-container p {
+  color: var(--charcoal);
+}
+
+.blog-container a {
+  color: var(--teal);
+}
+
+/* Add more styles as needed */

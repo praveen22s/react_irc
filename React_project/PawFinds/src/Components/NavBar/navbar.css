@@ -1,0 +1,98 @@
+:root {
+    --darkBlue: #1a1f2b;
+    --teal: #3ac1a7;
+    --hoverTeal: #2a907f;
+    --lightGrey: #f5f5f5;
+    --charcoal: #333;
+    --textLightGrey: #a8a8a8;
+    --green: #6dbb3a;
+    --darkGreen: #4f9623;
+    --redBtn: #e74c3c;
+    --redBtnHover: #c0392b;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    background-color: var(--darkBlue); /* Adjusted color */
+  }
+  
+  .navbar-logo {
+    margin-left: 10px;
+    width: 54px;
+  }
+  
+  .logo-container {
+    color: var(--charcoal); /* Adjusted color */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-container > p {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    font-size: 29px;
+    color: var(--charcoal); /* Adjusted color */
+  }
+  
+  .navbar-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar-links li > * {
+    text-decoration: none;
+    border: 2px var(--white) solid;
+    padding: 5px 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    color: var(--charcoal); /* Adjusted color */
+  }
+  
+  .navbar-links li > *:hover {
+    border: 2px var(--green) solid; /* Adjusted color */
+    background-color: var(--green); /* Adjusted color */
+    color: var(--lightGrey); /* Adjusted color */
+    box-shadow: 1.5px 1.5px 3px var(--green); /* Adjusted color */
+  }
+  
+  .Navbar-button {
+    border: 2px var(--green) solid; /* Adjusted color */
+    height: 42px;
+    width: 105px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: var(--green); /* Adjusted color */
+    color: var(--lightGrey); /* Adjusted color */
+    box-shadow: 1.5px 1.5px 3px var(--green); /* Adjusted color */
+  }
+  
+  .Navbar-button:hover {
+    border: 2px var(--green) solid; /* Adjusted color */
+    background-color: var(--lightGrey); /* Adjusted color */
+    color: var(--green); /* Adjusted color */
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-container > * {
+      margin-bottom: 10px;
+    }
+  }
+  

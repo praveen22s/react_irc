@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Buddy",
+      "type": "Dog",
+      "age": "3 years",
+      "picture": "https://worldanimalfoundation.org/wp-content/uploads/2023/09/Black-Dogs.jpg",
+      "location": "Blue Area, Islamabad"
+    },
+    {
+      "name": "Whiskers",
+      "type": "Cat",
+      "age": "1 year",
+      "picture": "https://thekindpet.com/cdn/shop/articles/How_to_Care_for_The_Environment_And_Have_An_Outdoor_Cat-min.png?v=1683166158&width=1000",
+      "location": "Saddar, Rawalpindi"
+    },
+    {
+      "name": "Max",
+      "type": "Dog",
+      "age": "2 years",
+      "picture": "https://worldanimalfoundation.org/wp-content/uploads/2023/09/black-fluffy-dog-1024x682.jpg",
+      "location": "DHA, Lahore"
+    },
+    {
+      "name": "Luna",
+      "type": "Cat",
+      "age": "6 months",
+      "picture": "https://images.newscientist.com/wp-content/uploads/2022/09/05104652/SEI_122580801.jpg?width=900",
+      "location": "Gulberg, Karachi"
+    },
+    {
+      "name": "Rocky",
+      "type": "Dog",
+      "age": "4 years",
+      "picture": "https://dogtime.com/wp-content/uploads/sites/12/2011/01/GettyImages-187202146-e1694559336781.jpg?resize=1024,798",
+      "location": "F-10, Islamabad"
+    },
+    {
+      "name": "Mittens",
+      "type": "Cat",
+      "age": "2 years",
+      "picture": "https://img.atlasobscura.com/ZfQ5U0jCuF8VHDuRlZBlZN_bNLalVXvuePpRKH5kE2A/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80NzUy/NGNjN2FmMTIzNmQx/MzdfMTIyNDM4MzI3/MF9mYjEyZTIxZWNl/X28uanBn.jpg",
+      "location": "Model Town, Lahore"
+    },
+    {
+      "name": "Charlie",
+      "type": "Dog",
+      "age": "1 year",
+      "picture": "https://www.thestatesman.com/wp-content/uploads/2022/07/AmericanBullysobakabarobaka-4ce0d4dc0e144dccadb5159b222e275e-e1657808052501.jpg",
+      "location": "Clifton, Karachi"
+    },
+    {
+      "name": "Snowball",
+      "type": "Cat",
+      "age": "8 months",
+      "picture": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NhdC1wdXJyMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH0sInRvRm9ybWF0IjoiYXZpZiJ9fQ==",
+      "location": "G-9, Islamabad"
+    },
+    {
+      "name": "Bella",
+      "type": "Dog",
+      "age": "3 years",
+      "picture": "https://www.sheknows.com/wp-content/uploads/2023/06/cute-small-dog-breeds.jpg?resize=1024,768",
+      "location": "Johar Town, Lahore"
+    },
+    {
+      "name": "Oscar",
+      "type": "Cat",
+      "age": "1.5 years",
+      "picture": "https://images.newscientist.com/wp-content/uploads/2020/10/28112526/shutterstock_1105090019_web.jpg?width=900",
+      "location": "Gulshan, Karachi"
+    }
+  ]
+  
